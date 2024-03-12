@@ -1,0 +1,16 @@
+<!-- pkmn_tcg/templates/pkmn_tcg/pokemon_list.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokémon TCG - Pokémon List</title>
+</head>
+<body>
+    <h1>Pokémon List</h1>
+    <ul>
+        {% for pokemon_card in pokemon_cards %}
+            <li><a href="{% url 'pokemon_detail' pk=pokemon_card.pk %}">{{ pokemon_card.name }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,54 @@
+[
+  {
+    "model": "pkmn_tcg.pokemoncard",
+    "pk": 12,
+    "fields": {
+      "name": "Ninetales",
+      "card_type": "pokemon",
+      "hp": 80,
+      "pokemon_type": "fire",
+      "status": "normal",
+      "ability": "",
+      "attack_1_name": "Lure",
+      "attack_1_cost": [2, 0, 0, 0, 0, 0, 0],
+      "attack_1_damage": 0,
+      "attack_2_name": "Fire Blast",
+      "attack_2_cost": [0, 0, 4, 0, 0, 0, 0],
+      "attack_2_damage": 80,
+      "weakness": "water",
+      "resistance": "None",
+      "retreat_cost": 1,
+      "stage": "stage1",
+      "evolves_from": 68,
+      "attack_1_effects": [],
+      "attack_2_effects": [],
+      "ability_effects": []
+    }
+  },
+  {
+    "model": "pkmn_tcg.pokemoncard",
+    "pk": 68,
+    "fields": {
+      "name": "Vulpix",
+      "card_type": "pokemon",
+      "hp": 50,
+      "pokemon_type": "fire",
+      "status": "normal",
+      "ability": "",
+      "attack_1_name": "Confuse Ray",
+      "attack_1_cost": [0, 0, 2, 0, 0, 0, 0],
+      "attack_1_damage": 10,
+      "attack_2_name": null,
+      "attack_2_cost": [],
+      "attack_2_damage": null,
+      "weakness": "water",
+      "resistance": "None",
+      "retreat_cost": 1,
+      "stage": "basic",
+      "evolves_from": null,
+      "attack_1_effects": [],
+      "attack_2_effects": [],
+      "ability_effects": []
+    }
+  }
+]
